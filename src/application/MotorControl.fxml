@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="201.0" prefWidth="287.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GuiController">
+   <children>
+      <Button fx:id="btnUp" layoutX="66.0" layoutY="84.0" mnemonicParsing="false" onAction="#buttonPressed" text="Up" />
+      <Button fx:id="btnDown" layoutX="60.0" layoutY="136.0" mnemonicParsing="false" onAction="#buttonPressed" text="Down" />
+      <Button fx:id="btnLeft" layoutX="24.0" layoutY="109.0" mnemonicParsing="false" onAction="#buttonPressed" text="Left" />
+      <Button fx:id="btnRight" layoutX="107.0" layoutY="109.0" mnemonicParsing="false" onAction="#buttonPressed" text="Right" textAlignment="CENTER" />
+      <Label layoutX="171.0" layoutY="88.0" text="ES Up:" />
+      <Label layoutX="171.0" layoutY="106.0" text="ES Down:" />
+      <Label layoutX="171.0" layoutY="122.0" text="ES Left:" />
+      <Label layoutX="171.0" layoutY="139.0" text="ES Right:" />
+      <Label fx:id="stateES_Up" layoutX="226.0" layoutY="88.0" text="ES Up" />
+      <Label fx:id="stateES_Down" layoutX="226.0" layoutY="105.0" text="ES Down" />
+      <Label fx:id="stateES_Left" layoutX="226.0" layoutY="122.0" text="ES Left" />
+      <Label fx:id="stateES_Right" layoutX="226.0" layoutY="139.0" text="ES Right" />
+      <Label layoutX="23.0" layoutY="48.0" text="Steps:" />
+      <TextField fx:id="textField_Steps" layoutX="68.0" layoutY="44.0" prefHeight="25.0" prefWidth="61.0" />
+      <Text fill="#eb692d" layoutX="106.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Motor Control" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
